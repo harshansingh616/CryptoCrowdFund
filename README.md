@@ -1,6 +1,6 @@
 CryptoCrowdFund : Crowdfunding Platform Powered by Ethereum Blockchain
 
-The Platform is live on Rinkeby Test Network and available to use at : [cryptocrowdfund.vercel.app](https://cryptocrowdfund.vercel.app/)
+The Platform is live on Goerli Test Network and available to use at : [cryptocrowdfund.vercel.app](https://cryptocrowdfund.vercel.app/)
 
 ## Problem Statement and Necessity 
 Crowdfunding is one of the most popular ways to raise funds for any project, cause or for helping any individual in need. With the onset of Covid we have seen a rise in Crowdfunding activities across the globe which includes small campaigns to help people get oxygen and medical help to large funds such as PM Cares.
@@ -39,8 +39,7 @@ We were highly inspired by the CryptoRelief initiative ([www.cryptorelief.in](ht
 
 ## Prerequisites to create Campaign and Contribute
 1. Install **Metamask** as Google Chrome Extension and Create an account.
-2.  Request Ether by sharing your ethereum address in social media <br>(`https://faucet.rinkeby.io/)`
-3. Get 0.01 ether free by giving the ethereum address <br>`(http://rinkeby-faucet.com/)`
+2.  Request Goerli Ether from a faucet.
 
 ## To Deploy your own Contract 
 1. Create an account in [https://infura.io](https://infura.io/)
