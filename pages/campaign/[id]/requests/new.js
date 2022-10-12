@@ -55,7 +55,7 @@ export default function NewRequest() {
     console.log(data);
     const campaign = Campaign(id);
     try {
-      const accounts = await web3.eth.getAccounts();
+      const accounts = await web3.eth.requestAccounts();
       await campaign.methods
         .createRequest(
           data.description,

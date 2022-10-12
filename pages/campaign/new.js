@@ -61,7 +61,7 @@ export default function NewCampaign() {
       data.target
     );
     try {
-      const accounts = await web3.eth.getAccounts();
+      const accounts = await web3.eth.requestAccounts();
       await factory.methods
         .createCampaign(
           web3.utils.toWei(data.minimumContribution, "ether"),

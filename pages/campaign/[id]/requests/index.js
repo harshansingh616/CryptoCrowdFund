@@ -79,7 +79,7 @@ const RequestRow = ({
     setLoadingApprove(true);
     try {
       const campaign = Campaign(campaignId);
-      const accounts = await web3.eth.getAccounts();
+      const accounts = await web3.eth.requestAccounts();
       await campaign.methods.approveRequest(id).send({
         from: accounts[0],
       });
@@ -95,7 +95,7 @@ const RequestRow = ({
     setLoadingFinalize(true);
     try {
       const campaign = Campaign(campaignId);
-      const accounts = await web3.eth.getAccounts();
+      const accounts = await web3.eth.requestAccounts();
       await campaign.methods.finalizeRequest(id).send({
         from: accounts[0],
       });
