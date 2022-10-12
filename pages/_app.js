@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
       {" "}
       <ChakraProvider theme={theme}>
         <UseWalletProvider
-          chainId={4}
+          chainId={5}
           connectors={{
             walletconnect: {
               rpcUrl:
